@@ -3,8 +3,8 @@
 docker compose down
 rm -rf ./master/data/* ./master/data/.gitkeep
 rm -rf ./slave/data/* ./slave/data/.gitkeep
-chmod 033 ./master/conf/mysql.conf.cnf
-chmod 033 ./slave/conf/mysql.conf.cnf
+chmod 044 ./master/conf/mysql.conf.cnf
+chmod 044 ./slave/conf/mysql.conf.cnf
 docker compose build
 docker compose up -d
 
